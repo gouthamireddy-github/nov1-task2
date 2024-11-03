@@ -18,80 +18,125 @@
 .bar1{
     background-color: lightblue;
     animation-name: height;
-    animation-duration: 2s;
-    animation-iteration-count: 10;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
     animation-timing-function: ease;
 }
 .bar2{
     background-color: lightseagreen;
     animation-name: height1;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-delay: 0.1s;
-    animation-iteration-count: 10;
+    animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 .bar3{
     background-color: lightslategray;
     animation-name: height2;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-delay: 0.2s;
-    animation-iteration-count: 10;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-oot;
 }
 .bar4{
     background-color: lightsalmon;
     animation-name: height3;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-delay: 0.1s;
-    animation-iteration-count: 10;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
 .bar5{
     background-color: lightslategray;
     animation-name: height4;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-delay: 0.2s;
-    animation-iteration-count: 10;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in;
 
 }
 @keyframes height{
-      from{
+      0%{
         height: 20px;
       }
-      to{
-        height: 40px;
+      25%{
+        height: 30px;
+      }
+      50%{
+        height: 40%;
+      }
+      75%{
+        height: 25%;
+      }
+      100%{
+        height: 20%;
       }
 }
 @keyframes height1{
-    from{
+    0%{
       height: 20px;
     }
-    to{
-      height: 50px;
+    25%{
+      height: 30%;
+    }
+    50%{
+      height: 505;
+    }
+    75%{
+      height: 40%;
+    }
+    100%{
+      height: 20%;
     }
 }
 @keyframes height2{
-    from{
-      height: 20px;
-    }
-    to{
-      height: 60px;
-    }
+  0%{
+    height: 20px;
+  }
+  25%{
+    height: 30%;
+  }
+  50%{
+    height: 60%;
+  }
+  75%{
+    height: 50%;
+  }
+  100%{
+    height: 20%;
+  }
 }
 @keyframes height3{
-    from{
-      height: 20px;
-    }
-    to{
-      height: 45px;
-    }
+  0%{
+    height: 20px;
+  }
+  25%{
+    height: 30%;
+  }
+  50%{
+    height: 45%;
+  }
+  75%{
+    height: 35%;
+  }
+  100%{
+    height: 20%;
+  }
 }
 @keyframes height4{
-    from{
-      height: 20px;
-    }
-    to{
-      height: 35px;
-    }
+  0%{
+    height: 20px;
+  }
+  25%{
+    height: 30%;
+  }
+  50%{
+    height: 50%;
+  }
+  75%{
+    height: 40%;
+  }
+  100%{
+    height: 20%;
+  }
 }
